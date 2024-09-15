@@ -1,11 +1,12 @@
 import './App.css'
+import MainRoutes from './routes/Mainroute'
 
 function App() {
 
 
   return (
     <>
-      Movie App
+      <MainRoutes />
     </>
   )
 }
