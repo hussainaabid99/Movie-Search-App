@@ -32,13 +32,16 @@
 }
 
 #result-list {
-     /* display: none; */
+     display: none;
      position: absolute;
      background-color: whitesmoke;
      font-size: medium;
      color: black;
      width: 100%;
      border-radius: 10px;
+     max-height: 400px;
+     overflow-y: scroll;
+     border: 1px solid var(--light-prime-grey);
 }
 
 #result-list>.autocomplete-result {
