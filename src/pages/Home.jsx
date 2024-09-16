@@ -5,9 +5,10 @@ import MovieCard from "../components/MovieCard/MovieCard";
 import './Home.css';
 import useMovieList from "../hooks/useMovieList";
 
+
 function Home() {
 
-     const { movieList } = useMovieList('avengers', 'batman')
+     const { movieList } = useMovieList('avengers', 'batman');
 
      return (
           <>
