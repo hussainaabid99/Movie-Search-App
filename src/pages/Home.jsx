@@ -15,7 +15,8 @@ function Home() {
                <div className="movie-card-wrapper">
 
                     {movieList.map(movie => <MovieCard
-                         key={movie.imdbId}
+                         key={movie.imdbID}
+                         id={movie.imdbID}
                          {...movie}
                     />
                     )}
